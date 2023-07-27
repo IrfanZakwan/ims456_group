@@ -1,0 +1,287 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #ff4d4d; /* Red */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White */
+    text-align: center;
+    padding: 100px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* CTA button styles */
+.cta-button {
+    display: inline-block;
+    background-color: #ff8800; /* Orange */
+    color: #fff; /* White */
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About section styles */
+.about {
+    background-color: #f9f9f9; /* Light gray */
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Halal section styles */
+.halal {
+    background-color: #4da6ff; /* Blue */
+    color: #fff; /* White */
+    padding: 60px 0;
+}
+
+.halal h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Product section styles */
+.products {
+    padding: 60px 0;
+    background-color: #f9f9f9; /* Light gray */
+    overflow-x: scroll;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Horizontal self-scrolling carousel */
+.product-carousel {
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.product-item {
+    margin-right: 20px;
+}
+
+.product-item:last-child {
+    margin-right: 0;
+}
+
+.product-item img {
+    max-width: 200px;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Our Promises section styles */
+.promises {
+    background-color: #333; /* Dark gray */
+    color: #fff; /* White */
+    padding: 60px 0;
+}
+
+.promises h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* List style for Our Promises */
+.promises-list {
+    list-style: none;
+    padding: 0;
+}
+
+.promises-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.promises-list img {
+    max-width: 50px;
+    margin-right: 15px;
+}
+
+.promises-list p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 60px 0;
+    background-color: #4da6ff; /* Blue */
+    color: #fff; /* White */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contact info and form layout */
+.contact-info, .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-item {
+    flex-basis: 33.33%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-item img {
+    max-width: 50px;
+}
+
+.contact-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-form {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #ff8800; /* Orange */
+    color: #fff; /* White */
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e66200; /* Darker orange on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark gray */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .cta-button {
+        font-size: 14px;
+    }
+
+    .about h2, .halal h2, .products h2, .promises h2, .contact h2 {
+        font-size: 28px;
+    }
+}
